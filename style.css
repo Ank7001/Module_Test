@@ -1,0 +1,42 @@
+.search-btn {
+    border: 2px solid blue;
+    color: blue;
+}
+
+search-btn :hover {
+    background-color: blue;
+}
+
+.carousel-item{
+    height: 70vh;
+}
+
+body {
+    padding: 0 20px 20px;
+}
+
+.bootstrap_cards {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+
+.bootstrap_accordions {
+    margin-top: 1.5rem;
+}
+
+.bootstrap-table {
+    margin-top: 1.5rem;
+}
+
+.bootstrap-form {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 481px) {
+    .bootstrap_cards {
+      flex-direction: column;
+    }
+  }
+  
